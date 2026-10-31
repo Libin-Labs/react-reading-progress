@@ -1,0 +1,12 @@
+.lp-reading-progress {
+  --reading-accent: #2459b8;
+  width: 100%;
+  height: 0.5rem;
+  accent-color: var(--reading-accent);
+}
+.lp-reading-progress::-webkit-progress-value {
+  background: var(--reading-accent);
+}
+.lp-reading-progress::-moz-progress-bar {
+  background: var(--reading-accent);
+}
